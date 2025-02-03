@@ -10,7 +10,7 @@ from PIL import Image
 from markdown import Markdown
 
 # Configure the API
-api_key = "AIzaSyCLjKAxeYnPS_9SrbR7Cm8XNDNtgk3W4HQ"  # Replace with your actual API key
+api_key = "AIzaSyDoPY7uXdjGOke9G3KBD0U5vnoFlXvuS5A"  # Replace with your actual API key
 genai.configure(api_key=api_key)
 model = genai.GenerativeModel("gemini-1.5-flash")
 
